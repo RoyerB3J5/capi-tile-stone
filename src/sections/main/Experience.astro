@@ -9,7 +9,7 @@ interface Props {
 }
 const { content } = Astro.props as Props;
 ---
-<section class="pt-[510px] md:pt-[276px] pb-[58px] md:pb-[115px] flex flex-col justify-center items-center gap-8 md:gap-[52px] max-w-screen lg:max-w-[1145px] px-4 lg:px-0">
+<section class="pt-[515px] md:pt-[276px] pb-[58px] md:pb-[115px] flex flex-col justify-center items-center gap-8 md:gap-[52px] max-w-screen lg:max-w-[1145px] px-4 lg:px-0">
   <div class="w-full flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-10 lg:gap-[86px]">
     <div class="relative order-2 md:order-1 w-full md:w-[581px] h-[574px] md:h-[647px]" data-aos="fade-right">
       <!-- Experience 1: Fila 1, Columna 1 -->
@@ -27,7 +27,7 @@ const { content } = Astro.props as Props;
         <img src="/main/exp-1.webp" alt="Experiencia 3" width="1500" height="100" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 17% center;"  loading="lazy" decoding="async">
       </div>
     </div>
-    <div class="order-1 md:order-1 flex flex-col items-center md:items-start justify-center py-[48px] md:py-0 max-w-none md:max-w-[478px] max-h-none md:max-h-[648px]" data-aos="fade-left">
+    <div class="order-1 md:order-1 flex flex-col items-center md:items-start justify-center pt-[48px] pb-[10px] md:py-0 max-w-none md:max-w-[478px] max-h-none md:max-h-[648px]" data-aos="fade-left">
       <h2 class="text-[28px] md:text-[44px] font-semibold leading-[24px] text-secondary h-[43px] md:h-[72px] flex items-center">The Capi <span class="ml-1 text-main">Difference</span></h2>
       <p class="text-[16px] md:text-[18px] leading-[20px] md:leading-[25px] text-center md:text-start font-bold max-w-none md:max-w-[356px] text-main" set:html={content.description}></p>
       <p set:html={content.description2} class="mt-[17px] md:mt-5 text-[16px] md:text-[16px] leading-[20px] md:leading-[25px] text-center md:text-start font-medium main"></p>
