@@ -49,6 +49,7 @@ export default {
         'Expertos en Instalación <br class="hidden md:block"/>de <span class="font-black md:font-semibold">Azulejo y Piedra en Scottsdale</span> <span class="font-bold md:font-semibold">, Paradise Valley y Áreas Circundantes de Arizona</span>',
       button1: 'Llamar ahora',
       button2: 'Cotización Gratuita Ahora',
+      video:"https://player.mux.com/fJIrI6nJMirMQi4Lwrp9s19RvU2JvHaOT00PK6qstdEw?metadata-video-title=VIDEO+CAPI&video-title=VIDEO+CAPI&accent-color=%23e90c0c",
       lists: [
         {
           title: 'Calidad Duradera',

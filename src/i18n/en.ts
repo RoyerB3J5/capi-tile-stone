@@ -49,6 +49,7 @@ export default {
         'Tile & Stone <br class="hidden md:block"/> <span class="font-black md:font-semibold">Installation Experts <br class="hidden md:block"/>  in Scottsdale</span> <span class="font-bold md:font-semibold">, Paradise Valley, and Surrounding Areas of Arizona</span>',
       button1: 'Call now',
       button2: 'Get Your Free Quote Now',
+      video:"https://player.mux.com/7PsVVm7L15pUmULZ1yX01qFeA01UEBRjRTvX02KeZ1T72M?metadata-video-title=CAPI_TS_CLIPWEB_ENG&video-title=CAPI_TS_CLIPWEB_ENG&accent-color=%23e90c0c",
       lists: [
         {
           title: 'Lasting Quality',
