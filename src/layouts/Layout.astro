@@ -36,8 +36,8 @@ const { lang, t } = Astro.props;
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<!-- Preconnect para widget de chat - optimización de terceros -->
-		<link rel="preconnect" href="https://widgets.leadconnectorhq.com">
-		<link rel="dns-prefetch" href="https://widgets.leadconnectorhq.com">
+		<link rel="preconnect" href="https://beta.leadconnectorhq.com">
+		<link rel="dns-prefetch" href="https://beta.leadconnectorhq.com">
 		<!-- Load Google Fonts (Poppins) de forma ultra-optimizada -->
 		<link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"></noscript>
@@ -47,6 +47,7 @@ const { lang, t } = Astro.props;
 		
 		<meta name="generator" content={Astro.generator} />
 		<title>Capi Tile & Stone</title>
+		<meta name="description" content="At Capi Tile & Stone, we specialize in delivering custom tile and stone installations that reflect each client’s vision while exceeding expectations." />
 	</head>
 	<body class='font-family antialiased overflow-x-hidden bg-[#FAFAFA] flex flex-col justify-center items-center'>
 		<Header content={t?.header} />
