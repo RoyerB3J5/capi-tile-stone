@@ -2,48 +2,48 @@
 
 /* Fuente fallback optimizada para Poppins */
 @font-face {
-  font-family: 'Poppins Fallback';
-  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-family: "Poppins Fallback";
+  src: local("Arial"), local("Helvetica"), local("sans-serif");
   font-display: swap;
 }
 
 * {
-  font-family: 'Poppins', 'Poppins Fallback', Arial, sans-serif;
+  font-family: "Poppins", "Poppins Fallback", Arial, sans-serif;
 }
 
 @theme {
   --color-main: #000;
-  --color-secondary: #C60001;
-  --color-accent: #6A0000;
+  --color-secondary: #c60001;
+  --color-accent: #6a0000;
   --color-dark: #475059;
-  --color-background: #D9D9D9;
+  --color-background: #d9d9d9;
   --color-background-dark: #787878;
-  --font-family: 'Poppins', sans-serif;
+  --font-family: "Poppins", sans-serif;
   --breakpoint-xs: 25rem;
   --breakpoint-3xl: 106rem;
 }
-.solutions-bg{
-  background: #6A000017;
+.solutions-bg {
+  background: #6a000017;
 }
-.shadow-div{
+.shadow-div {
   box-shadow: 0px 13px 24.5px 0px rgba(0, 0, 0, 0.25);
 }
-.shadow-design{
-  box-shadow: 0px 6px 14.4px 0px rgba(0, 0, 0, 0.25)
+.shadow-design {
+  box-shadow: 0px 6px 14.4px 0px rgba(0, 0, 0, 0.25);
 }
-.gray-gradient{
-  background: rgba(4, 35, 64, 0.20);
+.gray-gradient {
+  background: rgba(4, 35, 64, 0.2);
 }
 .service-bg {
   background: rgba(4, 35, 64, 0.32);
 }
-.slide-hidden{
+.slide-hidden {
   transform: translateX(100%);
-  opacity: 0; 
+  opacity: 0;
 }
-.slide-visible{
+.slide-visible {
   transform: translateX(0);
-  opacity:1;
+  opacity: 1;
   transition: transform 1s ease-out, opacity 1s ease-out;
 }
 @keyframes shake {
@@ -71,10 +71,11 @@
 }
 
 .site-bg {
-  background-image: url('/bg-line.png');
-  background-size: cover;        /* ocupa toda la pantalla */
-  background-position: center;   /* ajustar como necesites */
+  background-image: url("/bg-line.png");
+  background-size: cover; /* ocupa toda la pantalla */
+  background-position: center; /* ajustar como necesites */
   background-repeat: no-repeat;
-  background-attachment: fixed;  /* se queda fija al hacer scroll */
+  background-attachment: fixed; /* se queda fija al hacer scroll */
   min-height: 100vh;
 }
+
